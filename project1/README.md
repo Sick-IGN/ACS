@@ -108,10 +108,6 @@ Read speed is also significantly faster then write speed, as is expected.
 
 ## Objective 3
 
-### Intro
-
-  Littles Law states that 
-
 ### Experiment
 
   Intel Memory Latency Checker is capable of simulating high latency in memory, as this feature was used to collect the data.
