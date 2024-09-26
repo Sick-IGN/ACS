@@ -173,7 +173,7 @@ By increasing the stride, you are accessinng elements in memory that are farther
 ### Result
 
 |Stride|Runtime|
-| | |
+|-|-|
 |1|3.3 seconds|
 |512|24.5 seconds|
 |1024|27.7 seconds|
