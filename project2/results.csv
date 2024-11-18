@@ -1,0 +1,550 @@
+Size,Sparsity,Matrix A Type,Matrix B Type,Function,Threads,Tile Size,Time (ms)
+500,0.001,Dense,Dense,Unoptimized,1,4,963.327
+500,0.001,Dense,Dense,Multithreaded,1,4,936.211
+500,0.001,Dense,Dense,MT with SIMD,1,4,565.805
+500,0.001,Dense,Dense,Cache Opt,1,4,1403.16
+500,0.001,Dense,Dense,Cache Opt SIMD,1,4,1511.08
+500,0.001,Sparse,Sparse,Unoptimized,1,4,0.04845
+500,0.001,Sparse,Sparse,Multithreaded,1,4,0.24772
+500,0.001,Sparse,Sparse,MT with SIMD,1,4,0.22226
+500,0.001,Sparse,Sparse,Cache Opt,1,4,0.188079
+500,0.001,Sparse,Sparse,Cache Opt SIMD,1,4,0.179746
+500,0.001,Dense,Sparse,Unoptimized,1,4,2.87437
+500,0.001,Dense,Sparse,Multithreaded,1,4,2.08524
+500,0.001,Dense,Sparse,MT with SIMD,1,4,0.484899
+500,0.001,Dense,Sparse,Cache Opt,1,4,3.42436
+500,0.001,Dense,Sparse,Cache Opt SIMD,1,4,109.947
+500,0.001,Dense,Dense,Unoptimized,1,256,937.256
+500,0.001,Dense,Dense,Multithreaded,1,256,1016.56
+500,0.001,Dense,Dense,MT with SIMD,1,256,578.233
+500,0.001,Dense,Dense,Cache Opt,1,256,1124.36
+500,0.001,Dense,Dense,Cache Opt SIMD,1,256,183.18
+500,0.001,Sparse,Sparse,Unoptimized,1,256,0.049373
+500,0.001,Sparse,Sparse,Multithreaded,1,256,0.180989
+500,0.001,Sparse,Sparse,MT with SIMD,1,256,0.151975
+500,0.001,Sparse,Sparse,Cache Opt,1,256,0.219732
+500,0.001,Sparse,Sparse,Cache Opt SIMD,1,256,0.155341
+500,0.001,Dense,Sparse,Unoptimized,1,256,2.80206
+500,0.001,Dense,Sparse,Multithreaded,1,256,2.50433
+500,0.001,Dense,Sparse,MT with SIMD,1,256,0.435958
+500,0.001,Dense,Sparse,Cache Opt,1,256,3.23637
+500,0.001,Dense,Sparse,Cache Opt SIMD,1,256,110.285
+500,0.001,Dense,Dense,Unoptimized,8,4,918.157
+500,0.001,Dense,Dense,Multithreaded,8,4,189.399
+500,0.001,Dense,Dense,MT with SIMD,8,4,107.839
+500,0.001,Dense,Dense,Cache Opt,8,4,266.74
+500,0.001,Dense,Dense,Cache Opt SIMD,8,4,297.522
+500,0.001,Sparse,Sparse,Unoptimized,8,4,0.048802
+500,0.001,Sparse,Sparse,Multithreaded,8,4,0.626544
+500,0.001,Sparse,Sparse,MT with SIMD,8,4,0.760004
+500,0.001,Sparse,Sparse,Cache Opt,8,4,0.548598
+500,0.001,Sparse,Sparse,Cache Opt SIMD,8,4,0.656801
+500,0.001,Dense,Sparse,Unoptimized,8,4,2.81563
+500,0.001,Dense,Sparse,Multithreaded,8,4,0.886922
+500,0.001,Dense,Sparse,MT with SIMD,8,4,0.593693
+500,0.001,Dense,Sparse,Cache Opt,8,4,1.46195
+500,0.001,Dense,Sparse,Cache Opt SIMD,8,4,26.7319
+500,0.001,Dense,Dense,Unoptimized,8,256,932.651
+500,0.001,Dense,Dense,Multithreaded,8,256,192.376
+500,0.001,Dense,Dense,MT with SIMD,8,256,106.014
+500,0.001,Dense,Dense,Cache Opt,8,256,223.317
+500,0.001,Dense,Dense,Cache Opt SIMD,8,256,36.2121
+500,0.001,Sparse,Sparse,Unoptimized,8,256,0.052168
+500,0.001,Sparse,Sparse,Multithreaded,8,256,0.661278
+500,0.001,Sparse,Sparse,MT with SIMD,8,256,0.969767
+500,0.001,Sparse,Sparse,Cache Opt,8,256,0.573485
+500,0.001,Sparse,Sparse,Cache Opt SIMD,8,256,0.702486
+500,0.001,Dense,Sparse,Unoptimized,8,256,2.90991
+500,0.001,Dense,Sparse,Multithreaded,8,256,1.14009
+500,0.001,Dense,Sparse,MT with SIMD,8,256,0.296185
+500,0.001,Dense,Sparse,Cache Opt,8,256,1.36992
+500,0.001,Dense,Sparse,Cache Opt SIMD,8,256,34.5307
+500,0.01,Dense,Dense,Unoptimized,1,4,917.154
+500,0.01,Dense,Dense,Multithreaded,1,4,938.199
+500,0.01,Dense,Dense,MT with SIMD,1,4,574.846
+500,0.01,Dense,Dense,Cache Opt,1,4,1366.37
+500,0.01,Dense,Dense,Cache Opt SIMD,1,4,1533.36
+500,0.01,Sparse,Sparse,Unoptimized,1,4,1.42762
+500,0.01,Sparse,Sparse,Multithreaded,1,4,1.62976
+500,0.01,Sparse,Sparse,MT with SIMD,1,4,1.50058
+500,0.01,Sparse,Sparse,Cache Opt,1,4,1.61572
+500,0.01,Sparse,Sparse,Cache Opt SIMD,1,4,1.55661
+500,0.01,Dense,Sparse,Unoptimized,1,4,14.4155
+500,0.01,Dense,Sparse,Multithreaded,1,4,13.1952
+500,0.01,Dense,Sparse,MT with SIMD,1,4,2.29626
+500,0.01,Dense,Sparse,Cache Opt,1,4,16.4856
+500,0.01,Dense,Sparse,Cache Opt SIMD,1,4,1076.12
+500,0.01,Dense,Dense,Unoptimized,1,256,946.274
+500,0.01,Dense,Dense,Multithreaded,1,256,924.998
+500,0.01,Dense,Dense,MT with SIMD,1,256,563.341
+500,0.01,Dense,Dense,Cache Opt,1,256,1118.53
+500,0.01,Dense,Dense,Cache Opt SIMD,1,256,182.857
+500,0.01,Sparse,Sparse,Unoptimized,1,256,1.47699
+500,0.01,Sparse,Sparse,Multithreaded,1,256,1.57959
+500,0.01,Sparse,Sparse,MT with SIMD,1,256,1.46541
+500,0.01,Sparse,Sparse,Cache Opt,1,256,1.49275
+500,0.01,Sparse,Sparse,Cache Opt SIMD,1,256,1.51327
+500,0.01,Dense,Sparse,Unoptimized,1,256,14.6825
+500,0.01,Dense,Sparse,Multithreaded,1,256,12.3418
+500,0.01,Dense,Sparse,MT with SIMD,1,256,2.22262
+500,0.01,Dense,Sparse,Cache Opt,1,256,14.6266
+500,0.01,Dense,Sparse,Cache Opt SIMD,1,256,1063.45
+500,0.01,Dense,Dense,Unoptimized,8,4,924.606
+500,0.01,Dense,Dense,Multithreaded,8,4,185.935
+500,0.01,Dense,Dense,MT with SIMD,8,4,115.294
+500,0.01,Dense,Dense,Cache Opt,8,4,251.693
+500,0.01,Dense,Dense,Cache Opt SIMD,8,4,264.284
+500,0.01,Sparse,Sparse,Unoptimized,8,4,1.35981
+500,0.01,Sparse,Sparse,Multithreaded,8,4,1.04833
+500,0.01,Sparse,Sparse,MT with SIMD,8,4,0.720199
+500,0.01,Sparse,Sparse,Cache Opt,8,4,0.874419
+500,0.01,Sparse,Sparse,Cache Opt SIMD,8,4,1.17051
+500,0.01,Dense,Sparse,Unoptimized,8,4,14.9879
+500,0.01,Dense,Sparse,Multithreaded,8,4,2.547
+500,0.01,Dense,Sparse,MT with SIMD,8,4,0.566151
+500,0.01,Dense,Sparse,Cache Opt,8,4,3.68398
+500,0.01,Dense,Sparse,Cache Opt SIMD,8,4,263.744
+500,0.01,Dense,Dense,Unoptimized,8,256,946.009
+500,0.01,Dense,Dense,Multithreaded,8,256,174.739
+500,0.01,Dense,Dense,MT with SIMD,8,256,112.734
+500,0.01,Dense,Dense,Cache Opt,8,256,219.029
+500,0.01,Dense,Dense,Cache Opt SIMD,8,256,42.9563
+500,0.01,Sparse,Sparse,Unoptimized,8,256,1.36384
+500,0.01,Sparse,Sparse,Multithreaded,8,256,0.836377
+500,0.01,Sparse,Sparse,MT with SIMD,8,256,0.873758
+500,0.01,Sparse,Sparse,Cache Opt,8,256,0.864213
+500,0.01,Sparse,Sparse,Cache Opt SIMD,8,256,0.856184
+500,0.01,Dense,Sparse,Unoptimized,8,256,14.8222
+500,0.01,Dense,Sparse,Multithreaded,8,256,2.89534
+500,0.01,Dense,Sparse,MT with SIMD,8,256,0.605023
+500,0.01,Dense,Sparse,Cache Opt,8,256,3.82158
+500,0.01,Dense,Sparse,Cache Opt SIMD,8,256,471.274
+500,0.1,Dense,Dense,Unoptimized,1,4,921.707
+500,0.1,Dense,Dense,Multithreaded,1,4,932.916
+500,0.1,Dense,Dense,MT with SIMD,1,4,554.28
+500,0.1,Dense,Dense,Cache Opt,1,4,1348
+500,0.1,Dense,Dense,Cache Opt SIMD,1,4,1545.63
+500,0.1,Sparse,Sparse,Unoptimized,1,4,61.9783
+500,0.1,Sparse,Sparse,Multithreaded,1,4,61.0447
+500,0.1,Sparse,Sparse,MT with SIMD,1,4,59.4754
+500,0.1,Sparse,Sparse,Cache Opt,1,4,61.4881
+500,0.1,Sparse,Sparse,Cache Opt SIMD,1,4,61.5696
+500,0.1,Dense,Sparse,Unoptimized,1,4,106.265
+500,0.1,Dense,Sparse,Multithreaded,1,4,121.831
+500,0.1,Dense,Sparse,MT with SIMD,1,4,21.551
+500,0.1,Dense,Sparse,Cache Opt,1,4,117.694
+500,0.1,Dense,Sparse,Cache Opt SIMD,1,4,10611.1
+500,0.1,Dense,Dense,Unoptimized,1,256,936.906
+500,0.1,Dense,Dense,Multithreaded,1,256,936.803
+500,0.1,Dense,Dense,MT with SIMD,1,256,578.46
+500,0.1,Dense,Dense,Cache Opt,1,256,1104.14
+500,0.1,Dense,Dense,Cache Opt SIMD,1,256,179.831
+500,0.1,Sparse,Sparse,Unoptimized,1,256,58.5106
+500,0.1,Sparse,Sparse,Multithreaded,1,256,60.9965
+500,0.1,Sparse,Sparse,MT with SIMD,1,256,59.5443
+500,0.1,Sparse,Sparse,Cache Opt,1,256,60.3153
+500,0.1,Sparse,Sparse,Cache Opt SIMD,1,256,59.882
+500,0.1,Dense,Sparse,Unoptimized,1,256,106.887
+500,0.1,Dense,Sparse,Multithreaded,1,256,112.33
+500,0.1,Dense,Sparse,MT with SIMD,1,256,21.0275
+500,0.1,Dense,Sparse,Cache Opt,1,256,109.199
+500,0.1,Dense,Sparse,Cache Opt SIMD,1,256,10664.6
+500,0.1,Dense,Dense,Unoptimized,8,4,989.603
+500,0.1,Dense,Dense,Multithreaded,8,4,202.856
+500,0.1,Dense,Dense,MT with SIMD,8,4,101.606
+500,0.1,Dense,Dense,Cache Opt,8,4,252.444
+500,0.1,Dense,Dense,Cache Opt SIMD,8,4,277.481
+500,0.1,Sparse,Sparse,Unoptimized,8,4,59.225
+500,0.1,Sparse,Sparse,Multithreaded,8,4,13.016
+500,0.1,Sparse,Sparse,MT with SIMD,8,4,13.502
+500,0.1,Sparse,Sparse,Cache Opt,8,4,13.6069
+500,0.1,Sparse,Sparse,Cache Opt SIMD,8,4,13.2003
+500,0.1,Dense,Sparse,Unoptimized,8,4,107.164
+500,0.1,Dense,Sparse,Multithreaded,8,4,26.0602
+500,0.1,Dense,Sparse,MT with SIMD,8,4,2.98107
+500,0.1,Dense,Sparse,Cache Opt,8,4,22.1342
+500,0.1,Dense,Sparse,Cache Opt SIMD,8,4,3144.55
+500,0.1,Dense,Dense,Unoptimized,8,256,918.803
+500,0.1,Dense,Dense,Multithreaded,8,256,175.258
+500,0.1,Dense,Dense,MT with SIMD,8,256,95.3416
+500,0.1,Dense,Dense,Cache Opt,8,256,183.88
+500,0.1,Dense,Dense,Cache Opt SIMD,8,256,28.9436
+500,0.1,Sparse,Sparse,Unoptimized,8,256,59.1737
+500,0.1,Sparse,Sparse,Multithreaded,8,256,12.6858
+500,0.1,Sparse,Sparse,MT with SIMD,8,256,12.2859
+500,0.1,Sparse,Sparse,Cache Opt,8,256,11.87
+500,0.1,Sparse,Sparse,Cache Opt SIMD,8,256,13.9914
+500,0.1,Dense,Sparse,Unoptimized,8,256,109.127
+500,0.1,Dense,Sparse,Multithreaded,8,256,25.0557
+500,0.1,Dense,Sparse,MT with SIMD,8,256,4.80862
+500,0.1,Dense,Sparse,Cache Opt,8,256,23.5049
+500,0.1,Dense,Sparse,Cache Opt SIMD,8,256,3821.26
+1000,0.001,Dense,Dense,Unoptimized,1,4,7758.47
+1000,0.001,Dense,Dense,Multithreaded,1,4,8324.81
+1000,0.001,Dense,Dense,MT with SIMD,1,4,5617.83
+1000,0.001,Dense,Dense,Cache Opt,1,4,11078.1
+1000,0.001,Dense,Dense,Cache Opt SIMD,1,4,12314.6
+1000,0.001,Sparse,Sparse,Unoptimized,1,4,0.251571
+1000,0.001,Sparse,Sparse,Multithreaded,1,4,0.389079
+1000,0.001,Sparse,Sparse,MT with SIMD,1,4,0.345056
+1000,0.001,Sparse,Sparse,Cache Opt,1,4,0.311834
+1000,0.001,Sparse,Sparse,Cache Opt SIMD,1,4,0.295534
+1000,0.001,Dense,Sparse,Unoptimized,1,4,18.7781
+1000,0.001,Dense,Sparse,Multithreaded,1,4,12.1856
+1000,0.001,Dense,Sparse,MT with SIMD,1,4,2.04382
+1000,0.001,Dense,Sparse,Cache Opt,1,4,23.4675
+1000,0.001,Dense,Sparse,Cache Opt SIMD,1,4,1688.99
+1000,0.001,Dense,Dense,Unoptimized,1,256,8343.22
+1000,0.001,Dense,Dense,Multithreaded,1,256,7931.27
+1000,0.001,Dense,Dense,MT with SIMD,1,256,5043.31
+1000,0.001,Dense,Dense,Cache Opt,1,256,8876.23
+1000,0.001,Dense,Dense,Cache Opt SIMD,1,256,1397.43
+1000,0.001,Sparse,Sparse,Unoptimized,1,256,0.1919
+1000,0.001,Sparse,Sparse,Multithreaded,1,256,0.347922
+1000,0.001,Sparse,Sparse,MT with SIMD,1,256,0.328686
+1000,0.001,Sparse,Sparse,Cache Opt,1,256,0.297407
+1000,0.001,Sparse,Sparse,Cache Opt SIMD,1,256,0.299862
+1000,0.001,Dense,Sparse,Unoptimized,1,256,18.703
+1000,0.001,Dense,Sparse,Multithreaded,1,256,12.2545
+1000,0.001,Dense,Sparse,MT with SIMD,1,256,2.20158
+1000,0.001,Dense,Sparse,Cache Opt,1,256,20.0097
+1000,0.001,Dense,Sparse,Cache Opt SIMD,1,256,1674.58
+1000,0.001,Dense,Dense,Unoptimized,8,4,7597.93
+1000,0.001,Dense,Dense,Multithreaded,8,4,1332.62
+1000,0.001,Dense,Dense,MT with SIMD,8,4,888.24
+1000,0.001,Dense,Dense,Cache Opt,8,4,2035.72
+1000,0.001,Dense,Dense,Cache Opt SIMD,8,4,2101.12
+1000,0.001,Sparse,Sparse,Unoptimized,8,4,0.228568
+1000,0.001,Sparse,Sparse,Multithreaded,8,4,1.0249
+1000,0.001,Sparse,Sparse,MT with SIMD,8,4,0.948969
+1000,0.001,Sparse,Sparse,Cache Opt,8,4,0.91274
+1000,0.001,Sparse,Sparse,Cache Opt SIMD,8,4,0.604382
+1000,0.001,Dense,Sparse,Unoptimized,8,4,19.434
+1000,0.001,Dense,Sparse,Multithreaded,8,4,3.87055
+1000,0.001,Dense,Sparse,MT with SIMD,8,4,0.829444
+1000,0.001,Dense,Sparse,Cache Opt,8,4,4.33887
+1000,0.001,Dense,Sparse,Cache Opt SIMD,8,4,353.684
+1000,0.001,Dense,Dense,Unoptimized,8,256,7740.37
+1000,0.001,Dense,Dense,Multithreaded,8,256,1393.15
+1000,0.001,Dense,Dense,MT with SIMD,8,256,813.404
+1000,0.001,Dense,Dense,Cache Opt,8,256,1635
+1000,0.001,Dense,Dense,Cache Opt SIMD,8,256,267.13
+1000,0.001,Sparse,Sparse,Unoptimized,8,256,0.209232
+1000,0.001,Sparse,Sparse,Multithreaded,8,256,0.613269
+1000,0.001,Sparse,Sparse,MT with SIMD,8,256,0.905033
+1000,0.001,Sparse,Sparse,Cache Opt,8,256,0.856885
+1000,0.001,Sparse,Sparse,Cache Opt SIMD,8,256,0.716532
+1000,0.001,Dense,Sparse,Unoptimized,8,256,19.7441
+1000,0.001,Dense,Sparse,Multithreaded,8,256,3.26073
+1000,0.001,Dense,Sparse,MT with SIMD,8,256,0.750556
+1000,0.001,Dense,Sparse,Cache Opt,8,256,4.65399
+1000,0.001,Dense,Sparse,Cache Opt SIMD,8,256,441.199
+1000,0.01,Dense,Dense,Unoptimized,1,4,7733.43
+1000,0.01,Dense,Dense,Multithreaded,1,4,8255.07
+1000,0.01,Dense,Dense,MT with SIMD,1,4,4881.39
+1000,0.01,Dense,Dense,Cache Opt,1,4,11017.6
+1000,0.01,Dense,Dense,Cache Opt SIMD,1,4,12375.9
+1000,0.01,Sparse,Sparse,Unoptimized,1,4,10.4223
+1000,0.01,Sparse,Sparse,Multithreaded,1,4,10.6926
+1000,0.01,Sparse,Sparse,MT with SIMD,1,4,10.5547
+1000,0.01,Sparse,Sparse,Cache Opt,1,4,10.652
+1000,0.01,Sparse,Sparse,Cache Opt SIMD,1,4,10.7413
+1000,0.01,Dense,Sparse,Unoptimized,1,4,97.5508
+1000,0.01,Dense,Sparse,Multithreaded,1,4,97.7275
+1000,0.01,Dense,Sparse,MT with SIMD,1,4,17.058
+1000,0.01,Dense,Sparse,Cache Opt,1,4,106.449
+1000,0.01,Dense,Sparse,Cache Opt SIMD,1,4,16830.5
+1000,0.01,Dense,Dense,Unoptimized,1,256,7680.59
+1000,0.01,Dense,Dense,Multithreaded,1,256,8034.43
+1000,0.01,Dense,Dense,MT with SIMD,1,256,4852.46
+1000,0.01,Dense,Dense,Cache Opt,1,256,9015.06
+1000,0.01,Dense,Dense,Cache Opt SIMD,1,256,1414.36
+1000,0.01,Sparse,Sparse,Unoptimized,1,256,10.0419
+1000,0.01,Sparse,Sparse,Multithreaded,1,256,10.3488
+1000,0.01,Sparse,Sparse,MT with SIMD,1,256,10.2667
+1000,0.01,Sparse,Sparse,Cache Opt,1,256,10.2863
+1000,0.01,Sparse,Sparse,Cache Opt SIMD,1,256,10.7222
+1000,0.01,Dense,Sparse,Unoptimized,1,256,99.7548
+1000,0.01,Dense,Sparse,Multithreaded,1,256,101.582
+1000,0.01,Dense,Sparse,MT with SIMD,1,256,17.2409
+1000,0.01,Dense,Sparse,Cache Opt,1,256,99.9854
+1000,0.01,Dense,Sparse,Cache Opt SIMD,1,256,16873.3
+1000,0.01,Dense,Dense,Unoptimized,8,4,7810.53
+1000,0.01,Dense,Dense,Multithreaded,8,4,1575.73
+1000,0.01,Dense,Dense,MT with SIMD,8,4,958.914
+1000,0.01,Dense,Dense,Cache Opt,8,4,1950.01
+1000,0.01,Dense,Dense,Cache Opt SIMD,8,4,2173.82
+1000,0.01,Sparse,Sparse,Unoptimized,8,4,10.3528
+1000,0.01,Sparse,Sparse,Multithreaded,8,4,3.25821
+1000,0.01,Sparse,Sparse,MT with SIMD,8,4,2.75462
+1000,0.01,Sparse,Sparse,Cache Opt,8,4,3.36751
+1000,0.01,Sparse,Sparse,Cache Opt SIMD,8,4,3.01492
+1000,0.01,Dense,Sparse,Unoptimized,8,4,97.6641
+1000,0.01,Dense,Sparse,Multithreaded,8,4,20.2442
+1000,0.01,Dense,Sparse,MT with SIMD,8,4,4.1544
+1000,0.01,Dense,Sparse,Cache Opt,8,4,19.6254
+1000,0.01,Dense,Sparse,Cache Opt SIMD,8,4,3472.5
+1000,0.01,Dense,Dense,Unoptimized,8,256,7970.98
+1000,0.01,Dense,Dense,Multithreaded,8,256,1463.78
+1000,0.01,Dense,Dense,MT with SIMD,8,256,952.403
+1000,0.01,Dense,Dense,Cache Opt,8,256,1680.11
+1000,0.01,Dense,Dense,Cache Opt SIMD,8,256,265.028
+1000,0.01,Sparse,Sparse,Unoptimized,8,256,10.6016
+1000,0.01,Sparse,Sparse,Multithreaded,8,256,3.67059
+1000,0.01,Sparse,Sparse,MT with SIMD,8,256,3.06605
+1000,0.01,Sparse,Sparse,Cache Opt,8,256,3.13529
+1000,0.01,Sparse,Sparse,Cache Opt SIMD,8,256,3.51462
+1000,0.01,Dense,Sparse,Unoptimized,8,256,98.8771
+1000,0.01,Dense,Sparse,Multithreaded,8,256,18.4828
+1000,0.01,Dense,Sparse,MT with SIMD,8,256,2.84459
+1000,0.01,Dense,Sparse,Cache Opt,8,256,16.3119
+1000,0.01,Dense,Sparse,Cache Opt SIMD,8,256,5341.68
+1000,0.1,Dense,Dense,Unoptimized,1,4,7766.16
+1000,0.1,Dense,Dense,Multithreaded,1,4,7806.53
+1000,0.1,Dense,Dense,MT with SIMD,1,4,4902.05
+1000,0.1,Dense,Dense,Cache Opt,1,4,11048.6
+1000,0.1,Dense,Dense,Cache Opt SIMD,1,4,12314.8
+1000,0.1,Sparse,Sparse,Unoptimized,1,4,383.051
+1000,0.1,Sparse,Sparse,Multithreaded,1,4,388.705
+1000,0.1,Sparse,Sparse,MT with SIMD,1,4,384.61
+1000,0.1,Sparse,Sparse,Cache Opt,1,4,384.398
+1000,0.1,Sparse,Sparse,Cache Opt SIMD,1,4,387.557
+1000,0.1,Dense,Sparse,Unoptimized,1,4,875.311
+1000,0.1,Dense,Sparse,Multithreaded,1,4,1055.38
+1000,0.1,Dense,Sparse,MT with SIMD,1,4,169.816
+1000,0.1,Dense,Sparse,Cache Opt,1,4,850.69
+1000,0.1,Dense,Sparse,Cache Opt SIMD,1,4,168035
+1000,0.1,Dense,Dense,Unoptimized,1,256,7640.23
+1000,0.1,Dense,Dense,Multithreaded,1,256,7746.11
+1000,0.1,Dense,Dense,MT with SIMD,1,256,4773.59
+1000,0.1,Dense,Dense,Cache Opt,1,256,8803.51
+1000,0.1,Dense,Dense,Cache Opt SIMD,1,256,1390.49
+1000,0.1,Sparse,Sparse,Unoptimized,1,256,384.359
+1000,0.1,Sparse,Sparse,Multithreaded,1,256,386.325
+1000,0.1,Sparse,Sparse,MT with SIMD,1,256,387.345
+1000,0.1,Sparse,Sparse,Cache Opt,1,256,389.3
+1000,0.1,Sparse,Sparse,Cache Opt SIMD,1,256,383.909
+1000,0.1,Dense,Sparse,Unoptimized,1,256,870.975
+1000,0.1,Dense,Sparse,Multithreaded,1,256,965.524
+1000,0.1,Dense,Sparse,MT with SIMD,1,256,167.096
+1000,0.1,Dense,Sparse,Cache Opt,1,256,872.227
+1000,0.1,Dense,Sparse,Cache Opt SIMD,1,256,167690
+1000,0.1,Dense,Dense,Unoptimized,8,4,7591.99
+1000,0.1,Dense,Dense,Multithreaded,8,4,1362.3
+1000,0.1,Dense,Dense,MT with SIMD,8,4,799.636
+1000,0.1,Dense,Dense,Cache Opt,8,4,1919.66
+1000,0.1,Dense,Dense,Cache Opt SIMD,8,4,2124.41
+1000,0.1,Sparse,Sparse,Unoptimized,8,4,382.41
+1000,0.1,Sparse,Sparse,Multithreaded,8,4,73.1096
+1000,0.1,Sparse,Sparse,MT with SIMD,1,4,398.569
+1000,0.1,Sparse,Sparse,Cache Opt,1,4,393.84
+1000,0.1,Sparse,Sparse,Cache Opt SIMD,1,4,401.533
+1000,0.1,Dense,Sparse,Unoptimized,1,4,920.479
+1000,0.1,Dense,Sparse,Multithreaded,1,4,1075.83
+1000,0.1,Dense,Sparse,MT with SIMD,1,4,170.169
+1000,0.1,Dense,Sparse,Cache Opt,1,4,899.752
+1000,0.1,Dense,Sparse,Cache Opt SIMD,1,4,168386
+1000,0.1,Sparse,Sparse,MT with SIMD,1,256,434.864
+1000,0.1,Sparse,Sparse,Cache Opt,1,256,432.947
+1000,0.1,Sparse,Sparse,Cache Opt SIMD,1,256,391.297
+1000,0.1,Dense,Sparse,Unoptimized,1,256,911.917
+1000,0.1,Dense,Sparse,Multithreaded,1,256,961.139
+1000,0.1,Dense,Sparse,MT with SIMD,1,256,168.156
+1000,0.1,Dense,Sparse,Cache Opt,1,256,909.865
+1000,0.1,Dense,Sparse,Cache Opt SIMD,1,256,167455
+1000,0.1,Sparse,Sparse,MT with SIMD,8,4,75.4864
+1000,0.1,Sparse,Sparse,Cache Opt,8,4,67.9052
+1000,0.1,Sparse,Sparse,Cache Opt SIMD,8,4,73.0047
+1000,0.1,Dense,Sparse,Unoptimized,8,4,939.111
+1000,0.1,Dense,Sparse,Multithreaded,8,4,208.609
+1000,0.1,Dense,Sparse,MT with SIMD,8,4,36.706
+1000,0.1,Dense,Sparse,Cache Opt,8,4,157.242
+1000,0.1,Dense,Sparse,Cache Opt SIMD,8,4,39562.7
+1000,0.1,Sparse,Sparse,MT with SIMD,8,256,73.9573
+1000,0.1,Sparse,Sparse,Cache Opt,8,256,74.6738
+1000,0.1,Sparse,Sparse,Cache Opt SIMD,8,256,69.4947
+1000,0.1,Dense,Sparse,Unoptimized,8,256,880.559
+1000,0.1,Dense,Sparse,Multithreaded,8,256,156.007
+1000,0.1,Dense,Sparse,MT with SIMD,8,256,33.0944
+1000,0.1,Dense,Sparse,Cache Opt,8,256,163.446
+1000,0.1,Dense,Sparse,Cache Opt SIMD,8,256,41495.1
+2500,0.001,Dense,Dense,Unoptimized,1,4,228938
+2500,0.001,Dense,Dense,Multithreaded,1,4,213168
+2500,0.001,Dense,Dense,MT with SIMD,1,4,125264
+2500,0.001,Dense,Dense,Cache Opt,1,4,184858
+2500,0.001,Dense,Dense,Cache Opt SIMD,1,4,195852
+2500,0.001,Sparse,Sparse,Unoptimized,1,4,1.94135
+2500,0.001,Sparse,Sparse,Multithreaded,1,4,2.20517
+2500,0.001,Sparse,Sparse,MT with SIMD,1,4,2.33231
+2500,0.001,Sparse,Sparse,Cache Opt,1,4,2.11645
+2500,0.001,Sparse,Sparse,Cache Opt SIMD,1,4,2.11294
+2500,0.001,Dense,Sparse,Unoptimized,1,4,224.243
+2500,0.001,Dense,Sparse,Multithreaded,1,4,163.172
+2500,0.001,Dense,Sparse,MT with SIMD,1,4,31.2744
+2500,0.001,Dense,Sparse,Cache Opt,1,4,254.57
+2500,0.001,Dense,Sparse,Cache Opt SIMD,1,4,65722.2
+2500,0.001,Dense,Dense,Unoptimized,1,256,206952
+2500,0.001,Dense,Dense,Multithreaded,1,256,207477
+2500,0.001,Dense,Dense,MT with SIMD,1,256,121641
+2500,0.001,Dense,Dense,Cache Opt,1,256,145970
+2500,0.001,Dense,Dense,Cache Opt SIMD,1,256,22009.7
+2500,0.001,Sparse,Sparse,Unoptimized,1,256,2.00085
+2500,0.001,Sparse,Sparse,Multithreaded,1,256,2.22496
+2500,0.001,Sparse,Sparse,MT with SIMD,1,256,2.05685
+2500,0.001,Sparse,Sparse,Cache Opt,1,256,2.14271
+2500,0.001,Sparse,Sparse,Cache Opt SIMD,1,256,2.11224
+2500,0.001,Dense,Sparse,Unoptimized,1,256,220.079
+2500,0.001,Dense,Sparse,Multithreaded,1,256,164.502
+2500,0.001,Dense,Sparse,MT with SIMD,1,256,31.0859
+2500,0.001,Dense,Sparse,Cache Opt,1,256,239.345
+2500,0.001,Dense,Sparse,Cache Opt SIMD,1,256,65244.9
+2500,0.001,Dense,Dense,Unoptimized,8,4,206664
+2500,0.001,Dense,Dense,Multithreaded,8,4,37695.7
+2500,0.001,Dense,Dense,MT with SIMD,8,4,19895.2
+2500,0.001,Dense,Dense,Cache Opt,8,4,31375.2
+2500,0.001,Dense,Dense,Cache Opt SIMD,8,4,32984.2
+2500,0.001,Sparse,Sparse,Unoptimized,8,4,1.9052
+2500,0.001,Sparse,Sparse,Multithreaded,8,4,1.33497
+2500,0.001,Sparse,Sparse,MT with SIMD,8,4,1.09326
+2500,0.001,Sparse,Sparse,Cache Opt,8,4,1.00466
+2500,0.001,Sparse,Sparse,Cache Opt SIMD,8,4,1.02153
+2500,0.001,Dense,Sparse,Unoptimized,8,4,222.796
+2500,0.001,Dense,Sparse,Multithreaded,8,4,38.1855
+2500,0.001,Dense,Sparse,MT with SIMD,8,4,9.27341
+2500,0.001,Dense,Sparse,Cache Opt,8,4,46.3128
+2500,0.001,Dense,Sparse,Cache Opt SIMD,8,4,11469.1
+2500,0.001,Dense,Dense,Unoptimized,8,256,207085
+2500,0.001,Dense,Dense,Multithreaded,8,256,37620.9
+2500,0.001,Dense,Dense,MT with SIMD,8,256,20107.4
+2500,0.001,Dense,Dense,Cache Opt,8,256,25265.6
+2500,0.001,Dense,Dense,Cache Opt SIMD,8,256,3928.17
+2500,0.001,Sparse,Sparse,Unoptimized,8,256,1.8961
+2500,0.001,Sparse,Sparse,Multithreaded,8,256,1.07602
+2500,0.001,Sparse,Sparse,MT with SIMD,8,256,1.16912
+2500,0.001,Sparse,Sparse,Cache Opt,8,256,1.04412
+2500,0.001,Sparse,Sparse,Cache Opt SIMD,8,256,1.28967
+2500,0.001,Dense,Sparse,Unoptimized,8,256,221.929
+2500,0.001,Dense,Sparse,Multithreaded,8,256,29.0509
+2500,0.001,Dense,Sparse,MT with SIMD,8,256,6.7115
+2500,0.001,Dense,Sparse,Cache Opt,8,256,49.9189
+2500,0.001,Dense,Sparse,Cache Opt SIMD,8,256,13385.8
+2500,0.01,Dense,Dense,Unoptimized,1,4,207678
+2500,0.01,Dense,Dense,Multithreaded,1,4,209276
+2500,0.01,Dense,Dense,MT with SIMD,1,4,126934
+2500,0.01,Dense,Dense,Cache Opt,1,4,187125
+2500,0.01,Dense,Dense,Cache Opt SIMD,1,4,198614
+2500,0.01,Sparse,Sparse,Unoptimized,1,4,158.639
+2500,0.01,Sparse,Sparse,Multithreaded,1,4,165.367
+2500,0.01,Sparse,Sparse,MT with SIMD,1,4,161.64
+2500,0.01,Sparse,Sparse,Cache Opt,1,4,157.006
+2500,0.01,Sparse,Sparse,Cache Opt SIMD,1,4,163.009
+2500,0.01,Dense,Sparse,Unoptimized,1,4,1422.05
+2500,0.01,Dense,Sparse,Multithreaded,1,4,1517.74
+2500,0.01,Dense,Sparse,MT with SIMD,1,4,266.976
+2500,0.01,Dense,Sparse,Cache Opt,1,4,1458.33
+2500,0.01,Dense,Sparse,Cache Opt SIMD,1,4,666143
+2500,0.01,Dense,Dense,Unoptimized,1,256,214596
+2500,0.01,Dense,Dense,Multithreaded,1,256,212680
+2500,0.01,Dense,Dense,MT with SIMD,1,256,124484
+2500,0.01,Dense,Dense,Cache Opt,1,256,148857
+2500,0.01,Dense,Dense,Cache Opt SIMD,1,256,22709
+2500,0.01,Sparse,Sparse,Unoptimized,1,256,151.936
+2500,0.01,Sparse,Sparse,Multithreaded,1,256,156.926
+2500,0.01,Sparse,Sparse,MT with SIMD,1,256,159.772
+2500,0.01,Sparse,Sparse,Cache Opt,1,256,159.861
+2500,0.01,Sparse,Sparse,Cache Opt SIMD,1,256,161.939
+2500,0.01,Dense,Sparse,Unoptimized,1,256,1451.46
+2500,0.01,Dense,Sparse,Multithreaded,1,256,1616.31
+2500,0.01,Dense,Sparse,MT with SIMD,1,256,280.075
+2500,0.01,Dense,Sparse,Cache Opt,1,256,1499.02
+2500,0.01,Dense,Sparse,Cache Opt SIMD,1,256,689969
+2500,0.01,Dense,Dense,Unoptimized,8,4,213843
+2500,0.01,Dense,Dense,Multithreaded,8,4,38527.1
+2500,0.01,Dense,Dense,MT with SIMD,8,4,20599
+2500,0.01,Dense,Dense,Cache Opt,8,4,31502.8
+2500,0.01,Dense,Dense,Cache Opt SIMD,8,4,33875.6
+2500,0.01,Sparse,Sparse,Unoptimized,8,4,150.075
+2500,0.01,Sparse,Sparse,Multithreaded,8,4,36.1755
+2500,0.01,Sparse,Sparse,MT with SIMD,8,4,42.8051
+2500,0.01,Sparse,Sparse,Cache Opt,8,4,44.0638
+2500,0.01,Sparse,Sparse,Cache Opt SIMD,8,4,44.0387
+2500,0.01,Dense,Sparse,Unoptimized,8,4,1470.34
+2500,0.01,Dense,Sparse,Multithreaded,8,4,300.393
+2500,0.01,Dense,Sparse,MT with SIMD,8,4,51.5217
+2500,0.01,Dense,Sparse,Cache Opt,8,4,274.401
+2500,0.01,Dense,Sparse,Cache Opt SIMD,8,4,124828
+2500,0.01,Dense,Dense,Unoptimized,8,256,213948
+2500,0.01,Dense,Dense,Multithreaded,8,256,39688.7
+2500,0.01,Dense,Dense,MT with SIMD,8,256,20886.7
+2500,0.01,Dense,Dense,Cache Opt,8,256,26036.3
+2500,0.01,Dense,Dense,Cache Opt SIMD,8,256,3964.66
+2500,0.01,Sparse,Sparse,Unoptimized,8,256,154.154
+2500,0.01,Sparse,Sparse,Multithreaded,8,256,38.3157
+2500,0.01,Sparse,Sparse,MT with SIMD,8,256,39.228
+2500,0.01,Sparse,Sparse,Cache Opt,8,256,36.0262
+2500,0.01,Sparse,Sparse,Cache Opt SIMD,8,256,43.4173
+2500,0.01,Dense,Sparse,Unoptimized,8,256,1427.3
+2500,0.01,Dense,Sparse,Multithreaded,8,256,297.91
+2500,0.01,Dense,Sparse,MT with SIMD,8,256,50.732
+2500,0.01,Dense,Sparse,Cache Opt,8,256,271.159
+2500,0.01,Dense,Sparse,Cache Opt SIMD,8,256,139794
+2500,0.1,Dense,Dense,Unoptimized,1,4,210237
+2500,0.1,Dense,Dense,Multithreaded,1,4,214992
+2500,0.1,Dense,Dense,MT with SIMD,1,4,121827
+2500,0.1,Dense,Dense,Cache Opt,1,4,184521
+2500,0.1,Dense,Dense,Cache Opt SIMD,1,4,195994
+2500,0.1,Sparse,Sparse,Unoptimized,1,4,5300.23
+2500,0.1,Sparse,Sparse,Multithreaded,1,4,5298.45
+2500,0.1,Sparse,Sparse,MT with SIMD,1,4,5261.73
+2500,0.1,Sparse,Sparse,Cache Opt,1,4,5316.71
+2500,0.1,Sparse,Sparse,Cache Opt SIMD,1,4,5548.84
+2500,0.1,Dense,Sparse,Unoptimized,1,4,13579.9
+2500,0.1,Dense,Sparse,Multithreaded,1,4,18838.6
+2500,0.1,Dense,Sparse,MT with SIMD,1,4,2701.33
+2500,0.1,Dense,Sparse,Cache Opt,1,4,13426.1
+2500,0.1,Dense,Sparse,Cache Opt SIMD,1,4,6.84244e+06
+2500,0.1,Dense,Dense,Unoptimized,1,256,218916
+2500,0.1,Dense,Dense,Multithreaded,1,256,222822
+2500,0.1,Dense,Dense,MT with SIMD,1,256,147094
+2500,0.1,Dense,Dense,Cache Opt,1,256,152695
+2500,0.1,Dense,Dense,Cache Opt SIMD,1,256,23912
+2500,0.1,Sparse,Sparse,Unoptimized,1,256,5441.01
+2500,0.1,Sparse,Sparse,Multithreaded,1,256,5494.24
+2500,0.1,Sparse,Sparse,MT with SIMD,1,256,5359.38
+2500,0.1,Sparse,Sparse,Cache Opt,1,256,5431.85
+2500,0.1,Sparse,Sparse,Cache Opt SIMD,1,256,5794.09
+2500,0.1,Dense,Sparse,Unoptimized,1,256,14205.2
+2500,0.1,Dense,Sparse,Multithreaded,1,256,20958.8
+2500,0.1,Dense,Sparse,MT with SIMD,1,256,3019.42
+2500,0.1,Dense,Sparse,Cache Opt,1,256,14339
+2500,0.1,Dense,Sparse,Cache Opt SIMD,1,256,7.46626e+06
+2500,0.1,Dense,Dense,Unoptimized,8,4,236012
+2500,0.1,Dense,Dense,Multithreaded,8,4,40543.4
+2500,0.1,Dense,Dense,MT with SIMD,8,4,21311
+2500,0.1,Dense,Dense,Cache Opt,8,4,31862.9
+2500,0.1,Dense,Dense,Cache Opt SIMD,8,4,34401.1
+2500,0.1,Sparse,Sparse,Unoptimized,8,4,5650.23
+2500,0.1,Sparse,Sparse,Multithreaded,8,4,916.193
+2500,0.1,Sparse,Sparse,MT with SIMD,8,4,935.361
+2500,0.1,Sparse,Sparse,Cache Opt,8,4,954.804
+2500,0.1,Sparse,Sparse,Cache Opt SIMD,8,4,933.285
+2500,0.1,Dense,Sparse,Unoptimized,8,4,14954.1
+2500,0.1,Dense,Sparse,Multithreaded,8,4,3340.15
+2500,0.1,Dense,Sparse,MT with SIMD,8,4,517.961
+2500,0.1,Dense,Sparse,Cache Opt,8,4,2502.46
+2500,0.1,Dense,Sparse,Cache Opt SIMD,8,4,1.36918e+06
+2500,0.1,Dense,Dense,Unoptimized,8,256,231241
+2500,0.1,Dense,Dense,Multithreaded,8,256,40496.8
+2500,0.1,Dense,Dense,MT with SIMD,8,256,21692.1
+2500,0.1,Dense,Dense,Cache Opt,8,256,26376.8
+2500,0.1,Dense,Dense,Cache Opt SIMD,8,256,4126.47
+2500,0.1,Sparse,Sparse,Unoptimized,8,256,5759.98
+2500,0.1,Sparse,Sparse,Multithreaded,8,256,994.869
+2500,0.1,Sparse,Sparse,MT with SIMD,8,256,931.114
+2500,0.1,Sparse,Sparse,Cache Opt,8,256,928.166
+2500,0.1,Sparse,Sparse,Cache Opt SIMD,8,256,954.486
+2500,0.1,Dense,Sparse,Unoptimized,8,256,14400.7
+2500,0.1,Dense,Sparse,Multithreaded,8,256,3213.64
+2500,0.1,Dense,Sparse,MT with SIMD,8,256,489.845
+2500,0.1,Dense,Sparse,Cache Opt,8,256,2470.52
+2500,0.1,Dense,Sparse,Cache Opt SIMD,8,256,1.3691e+06
